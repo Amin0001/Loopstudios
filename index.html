@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="loopstudios.css">
+    <title>Loopstudios</title>
+    
+</head>
+
+<body>
+    <div class="slide1">
+        <header class="background">
+            <div class="brand">
+                <h2>loopstudios</h2>
+            </div>
+            <div class="menu">
+                
+                <img src="icon-hamburger.svg" id="menuicon">
+                
+                <ul class="menu-items" id="mainmenu">
+                  
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </header>
+            <div class="box">
+                <h3 style="letter-spacing: 0.25em;">IMMERSIVE <br>
+                EXPERIENCES<br>
+                THAT<br>
+                DELIVER</h3>
+            </div>
+               
+              
+        
+    </div>
+    <div class="slide2">
+        <img src="image-interactive.jpg" alt="image" class="image1">
+        <h4 style="letter-spacing:0.18em; font-family: roboto thin;">&nbsp; THE LEADER IN<br>INTERACTIVE VR</h4>
+        <p class="TXT">Founded in 2011, Loopstudios has been<br>&nbsp;producing world-class virtual reality<br>
+           &nbsp;creations have transformed businesses<br>&nbsp;through digital experiences that bind to<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; their brand.</p>
+    </div>
+    <div class="slide4">
+      <h4 style="letter-spacing: 0.18em;">OUR CREATIONS</h4>
+      <div class="block">
+        <div class="label">
+          <img src="image-deep-earth.jpg" alt="" class="half" >
+          <h5>DEEP<br>
+              EARTH
+          </h5>
+        </div>
+        <div class="label">
+          <img src="image-night-arcade.jpg" alt="" class="half">
+          <h5>NIGHT<br>
+            ARCADE
+        </h5>
+        </div>
+        <div class="label">
+          <img src="image-soccer-team.jpg" alt="" class="half">
+          <h5>SOCCER<br>
+            TEAM VR
+        </h5> 
+        </div>
+        <div class="label">
+          <img src="image-grid.jpg" alt="" class="half">
+          <h5>THE<br>
+            GRID
+        </h5>
+        </div>
+        <div class="label">
+          <img src="image-from-above.jpg" alt="" class="half">
+          <h5>FROM UP<br>
+            ABOVE VR
+        </h5>
+        </div>
+        <div class="label">
+          <img src="image-pocket-borealis.jpg" alt="" class="half">
+          <h5>POCKET<br>
+            BOREALS
+        </h5>
+        </div>
+        <div class="label">
+          <img src="image-curiosity.jpg" alt="" class="half">
+          <h5>THE<br>
+            CURIOSITY
+        </h5>
+        </div>
+        <div class="label">
+          <img src="image-fisheye.jpg" alt="" class="half">
+          <h5>MAKE IT<br>
+            FISHEYE
+        </h5>
+       </div>
+       <button class="btn">SEE ALL</button>
+    </div>
+    <div class="lastSlide">
+      
+      <div class="links">
+        <h2>loopstudios</h2>
+        <ul>
+          <li><a href="">About</a></li>
+          <li><a href="">Careers</a></li>
+          <li><a href="">Events</a></li>
+          <li><a href="">Product</a></li>
+          <li><a href="">Support</a></li>
+        </ul>
+        <div class="col-4 gap-3" >
+          <a href=""><img src="icon-facebook.svg"></a>
+          <a href=""><img src="icon-twitter.svg"></a>
+          <a href=""><img src="icon-pinterest.svg"></a>
+          <a href=""><img src="icon-instagram.svg"></a>
+        </div>
+        
+        <h5 style="color:grey;">(c)2021 Loopstudios.All rights reserved.</h5>
+      </div>
+      
+      
+    
+    </div>
+     
+       
+    <script>
+      function mobileMenu(){
+        if(document.getElementById("mainmenu").style.display == "block"){
+          document.getElementById("mainmenu").style.display = 'none';
+        }
+        else{
+          document.getElementById('mainmenu').style.display = 'block';
+        }
+      }
+      document.getElementById('menuicon').addEventListener('click',mobileMenu);  
+    </script>
+</body>
+
+</html>
